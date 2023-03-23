@@ -7,7 +7,7 @@ const Search = ({ countries }) => {
 
             <div className='parent-container my-5'>
                 <div class="input-group mb-3 custom-input w-100">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                    <input type="text" class="form-control" placeholder="Search here" aria-label="Recipient's username" aria-describedby="button-addon2" />
                     <button class="btn btn-outline-primary" type="button" id="button-addon2">Button</button>
                 </div>
 
@@ -17,9 +17,8 @@ const Search = ({ countries }) => {
                             Select Sort Method
                         </button>
                         <ul class="dropdown-menu">
-                            <li><button class="dropdown-item" type="button">Action</button></li>
-                            <li><button class="dropdown-item" type="button">Another action</button></li>
-                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            <li><button class="dropdown-item" type="button">Name</button></li>
+                            <li><button class="dropdown-item" type="button">Population</button></li>
                         </ul>
                     </div>
                     <div>
