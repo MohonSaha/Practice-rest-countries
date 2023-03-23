@@ -1,0 +1,32 @@
+.rest-custom {
+    height: 90vh;
+}
+
+/* carousel background shadow  */
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.496);
+    z-index: 1;
+}
+
+.custom-input{
+    width: 50%;
+}
+
+
+/* Responsive grid for mobile devices  */
+
+@media screen and (max-width:576px) {
+    .rest-custom {
+        height: 60vh;
+    }
+    .custom-input{
+        width: 100%;
+    }
+    
+}
